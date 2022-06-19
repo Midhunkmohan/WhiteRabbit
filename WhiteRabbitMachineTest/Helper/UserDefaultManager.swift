@@ -9,7 +9,7 @@ import Foundation
 
 class UserDefaultManager {
     
-    static let shared = UserDefaultsManager()
+    static let shared = UserDefaultManager()
     
     
     func getCustormerData() -> CustomerDetails {
