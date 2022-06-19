@@ -99,13 +99,13 @@
 		3B902CF7285ECC7500AADA91 /* WhiteRabbitMachineTest */ = {
 			isa = PBXGroup;
 			children = (
-				3B902CF8285ECC7500AADA91 /* AppDelegate.swift */,
-				3B902CFA285ECC7500AADA91 /* SceneDelegate.swift */,
+				3B902D2D285ECE8000AADA91 /* Webservice */,
+				3B902D2C285ECE6D00AADA91 /* UI */,
+				3B902D2B285ECE5300AADA91 /* AppDelegate */,
+				3B902D29285ECDF400AADA91 /* Storyboards */,
+				3B902D2A285ECE2D00AADA91 /* Assets */,
+				3B902D28285ECDED00AADA91 /* SourceFile */,
 				3B902CFC285ECC7500AADA91 /* ViewController.swift */,
-				3B902CFE285ECC7500AADA91 /* Main.storyboard */,
-				3B902D01285ECC7700AADA91 /* Assets.xcassets */,
-				3B902D03285ECC7700AADA91 /* LaunchScreen.storyboard */,
-				3B902D06285ECC7700AADA91 /* Info.plist */,
 			);
 			path = WhiteRabbitMachineTest;
 			sourceTree = "<group>";
@@ -125,6 +125,54 @@
 				3B902D1B285ECC7700AADA91 /* WhiteRabbitMachineTestUITestsLaunchTests.swift */,
 			);
 			path = WhiteRabbitMachineTestUITests;
+			sourceTree = "<group>";
+		};
+		3B902D28285ECDED00AADA91 /* SourceFile */ = {
+			isa = PBXGroup;
+			children = (
+				3B902D06285ECC7700AADA91 /* Info.plist */,
+			);
+			name = SourceFile;
+			sourceTree = "<group>";
+		};
+		3B902D29285ECDF400AADA91 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3B902CFE285ECC7500AADA91 /* Main.storyboard */,
+				3B902D03285ECC7700AADA91 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		3B902D2A285ECE2D00AADA91 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				3B902D01285ECC7700AADA91 /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		3B902D2B285ECE5300AADA91 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				3B902CF8285ECC7500AADA91 /* AppDelegate.swift */,
+				3B902CFA285ECC7500AADA91 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		3B902D2C285ECE6D00AADA91 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		3B902D2D285ECE8000AADA91 /* Webservice */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Webservice;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
