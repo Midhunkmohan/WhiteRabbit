@@ -18,4 +18,5 @@ class UserDefaultManager {
 //    func getCustormerData() -> CustomerDetails {
 //        let persistent = NSPersistentContainer(name: "Customer")
 //    }
+    
 }
