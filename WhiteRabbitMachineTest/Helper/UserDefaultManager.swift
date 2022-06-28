@@ -6,13 +6,16 @@
 //
 
 import Foundation
+import CoreData
 
 class UserDefaultManager {
     
     static let shared = UserDefaultManager()
     
     
-    func getCustormerData() -> CustomerDetails {
-        
-    }
+    var iscustomerLoaded: Bool?
+    
+//    func getCustormerData() -> CustomerDetails {
+//        let persistent = NSPersistentContainer(name: "Customer")
+//    }
 }
